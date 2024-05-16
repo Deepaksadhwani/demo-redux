@@ -1,0 +1,36 @@
+/* Notification.css */
+
+.notification {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+  }
+  
+  .notification h2 {
+    margin: 0;
+    font-size: 1.2rem;
+  }
+  
+  .notification p {
+    margin: 0;
+  }
+  
+  .notification.error {
+    background-color: #f56262;
+    color: white;
+  }
+  
+  .notification.success {
+    background-color: #62f562;
+    color: white;
+  }
+  
+  .notification.pending {
+    background-color: #62a3f5;
+    color: white;
+  }
+  

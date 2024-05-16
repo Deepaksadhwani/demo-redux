@@ -6,6 +6,8 @@ import { addItemCart } from "../../store/cartSlice";
 const ProductItem = (props) => {
   const { title, price, description, id } = props;
   const dispatch = useDispatch();
+
+
   const addCartHandler = () => {
     dispatch(
       addItemCart({
